@@ -8,7 +8,7 @@ Este aplicativo está em desenvolvimento como prática para acompanhamento das a
 
 ## Notas de Versão
 
-Este não é um aplicativo comercial, nem tão pouco pretenda ser totalmente funcional, ele é uma atividade prática de aula.
+Este não é um aplicativo comercial, nem tão pouco pretende ser totalmente funcional, ele é uma atividade prática de aula.
 
 ## Convite
 
