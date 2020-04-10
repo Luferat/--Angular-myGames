@@ -4,7 +4,7 @@ Aplicativo Web de CRUD em Angular e Firebase para gestão de uma biblioteca de v
 
 ## Informações
 
-Este aplicativo foi desenvolvido como prática para acompanhamento das aulas de desenvolvimento de aplicativos Web com Angular.
+Este aplicativo está em desenvolvimento como prática para acompanhamento das aulas de desenvolvimento de aplicativos Web com Angular.
 
 ## Notas de Versão
 
