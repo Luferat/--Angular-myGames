@@ -1,27 +1,15 @@
 # MyGames
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+Aplicativo Web de CRUD em Angular e Firebase para gestão de uma biblioteca de videogames.
 
-## Development server
+## Informações
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Este aplicativo foi desenvolvido como prática para acompanhamento das aulas de desenvolvimento de aplicativos Web com Angular.
 
-## Code scaffolding
+## Notas de Versão
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Este não é um aplicativo comercial, nem tão pouco pretenda ser totalmente funcional, ele é uma atividade prática de aula.
 
-## Build
+## Convite
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Fique à vontade para clonar ou criar um fork e ajudar a melhorar o aplicativo. Sugestões e críticas construtivas também serão bem-vindas e ajudarão nossos alunos a ter um futuro mais brilhante.
