@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Comic Neue', cursive;
+    font-size: 16px;
+}
+
+body {
+    background-image: url('assets/bg03.jpg');
+    background-attachment: fixed;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 255, 0);
+}
+
+a {
+    display: inline-block;
+    color: rgb(0, 255, 0);
+    text-decoration: none;
+    border-bottom: 1px dotted rgb(0, 255, 0);
+}
+
+a:hover {
+    color: orangered;
+    border-bottom: 1px dotted orangered;
+}
+
+app-root {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 906px;
+    background: rgba(0, 0, 0, 0);
+}
+
+
+/* Títulos das páginas */
+
+h2:first-child {
+    margin: 0;
+    padding: .8rem;
+    color: rgb(0, 255, 0);
+    letter-spacing: 1px;
+    border-bottom: 2px dotted rgb(0, 255, 0);
+}
+
+
+/* Responsive */
+
+@media (min-width: 640px) {
+    body {
+        background-attachment: inherit;
+        background-position: center left;
+    }
+}
+
+
+/* Sticky footer */
+
+html,
+body,
+app-root {
+    position: relative;
+    height: 100%;
+}
+
+app-root {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Bordas decoradas */
+
+.hborder {
+    border-left: 2px solid rgb(19, 225, 23);
+    border-right: 2px solid rgb(19, 225, 23);
+}
+
+.vborder {
+    border-top: 2px solid rgb(19, 225, 23);
+    border-bottom: 2px solid rgb(19, 225, 23);
+}
+
+.hborder,
+.vborder {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+    position: relative;
+}
+
+.hbd {
+    position: absolute;
+    width: .4rem;
+    height: 2px;
+    background: rgb(19, 225, 23);
+}
+
+.vbd {
+    position: absolute;
+    height: .5rem;
+    width: 2px;
+    background: rgb(19, 225, 23);
+}
+
+.tl {
+    top: 0;
+    left: 0;
+}
+
+.tr {
+    top: 0;
+    right: 0;
+}
+
+.br {
+    bottom: 0;
+    right: 0;
+}
+
+.bl {
+    bottom: 0;
+    left: 0;
+}
+
+
+/* General classes */
+
+.basic-button {
+    display: inline-block;
+    padding: .5rem 1rem;
+    color: rgb(0, 70, 0);
+    background: linear-gradient(rgb(124, 255, 124), rgb(0, 160, 0));
+    border-radius: .2rem;
+    border: none;
+    font-size: 1.1rem;
+}
+
+.basic-button:hover {
+    color: rgb(0, 255, 0);
+    background: linear-gradient(rgb(0, 129, 0), rgb(0, 36, 0));
+    border: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.small {
+    font-size: small;
+}

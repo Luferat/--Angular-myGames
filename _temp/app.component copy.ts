@@ -40,49 +40,27 @@ export class AppComponent implements OnInit {
       });
   }
 
+  ngOnInit(): void {
+    this.changeTitle();
+  }
+
   menuToggle() {
     $(document).ready(() => {
-
       if ($('#links').is(':visible')) {
         this.menuHide();
       } else {
         this.menuShow();
       }
-
     });
     return false;
   }
 
   menuHide() {
-    $('#links').slideUp('fast');
+    $('#links').hide('fast');
   }
 
   menuShow() {
-    $('#links').slideDown('fast');
+    $('#links').show('fast');
   }
-
-  ngOnInit(): void {
-    this.changeTitle();
-
-    $(document).ready(() => {
-
-
-      $(window).resize(() => {
-        if (window.innerWidth > 511) {
-          $('#links').show(0);
-        } else {
-          $('#links').hide(0);
-        }
-      });
-
-      $(document).on('click', '#links > a', () => {
-        $('#links').slideUp('fast');
-      });
-
-    });
-
-  }
-
-
 
 }
