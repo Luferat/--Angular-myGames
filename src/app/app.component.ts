@@ -66,7 +66,6 @@ export class AppComponent implements OnInit {
 
     $(document).ready(() => {
 
-
       $(window).resize(() => {
         if (window.innerWidth > 511) {
           $('#links').show(0);
@@ -76,13 +75,13 @@ export class AppComponent implements OnInit {
       });
 
       $(document).on('click', '#links > a', () => {
-        $('#links').slideUp('fast');
+        if (window.innerWidth < 512) {
+          $('#links').slideUp('fast');
+        }
       });
 
     });
 
   }
-
-
 
 }
