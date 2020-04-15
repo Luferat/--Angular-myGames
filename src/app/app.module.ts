@@ -25,7 +25,11 @@ import { AboutComponent } from './about/about.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+
+    // Inicialização do Firebase
     AngularFireModule.initializeApp(environment.firebase),
+
+    // Carga da classe de acesso ao Firestore
     AngularFirestoreModule
   ],
   providers: [],

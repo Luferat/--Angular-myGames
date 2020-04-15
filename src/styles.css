@@ -1,3 +1,6 @@
+/* FOLHAS DE ESTILO GLOBAIS - Afetam toda a aplicação. */
+
+
 /* CSS reset */
 
 * {
@@ -50,6 +53,9 @@ app-root {
     position: relative;
     height: 100%;
 }
+
+
+/* Centraliza e limita o crescimento da tela. */
 
 app-root {
     min-height: 100%;
