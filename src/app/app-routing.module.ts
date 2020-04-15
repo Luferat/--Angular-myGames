@@ -11,7 +11,10 @@ const routes: Routes = [
   // Rota não especificada é redirecionada para a "home"
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
+
+  // Rota para a listagem dos games
   { path: 'list', component: ListComponent, data: { title: 'Lista de Jogos' } },
+  
   { path: 'new', component: NewComponent, data: { title: 'Novo Jogo' } },
   { path: 'about', component: AboutComponent, data: { title: 'Sobre o My Games' } },
 
