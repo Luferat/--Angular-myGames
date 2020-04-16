@@ -1,6 +1,28 @@
 /* FOLHAS DE ESTILO GLOBAIS - Afetam toda a aplicação. */
 
 
+/* Cores do tema */
+
+:root {
+    --color-1: rgb(0, 255, 0);
+    --color-2: rgb(0, 240, 0);
+    --color-3: rgb(0, 224, 0);
+    --color-4: rgb(0, 192, 0);
+    --color-5: rgb(0, 128, 0);
+    --color-6: rgb(0, 64, 0);
+    --color-7: rgb(0, 32, 0);
+    --color-8: rgb(0, 16, 0);
+    --link-hover: orangered;
+    --box-border-px: 2px;
+    --box-border-tik: 8px;
+    --box-border: var(--box-border-px) solid var(--color-1);
+    --head-nav-foot-bg: rgba(0, 64, 0, .5);
+    --main-bg: rgba(0, 32, 0, .9);
+    --menu-drop-bg: rgba(0, 64, 0, .9);
+    --list-bg: rgba(0, 96, 0, .5);
+}
+
+
 /* CSS reset */
 
 * {
@@ -24,19 +46,19 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
-    color: rgb(0, 255, 0);
+    color: var(--color-1);
 }
 
 a {
-    color: rgb(0, 255, 0);
+    color: var(--color-1);
     text-decoration: none;
-    border-bottom: 1px dotted rgb(0, 255, 0);
+    border-bottom: 1px dotted var(--color-1);
     display: inline-block;
 }
 
 a:hover {
-    color: orangered;
-    border-bottom: 1px dotted orangered;
+    color: var(--link-hover);
+    border-bottom: 1px dotted var(--link-hover);
 }
 
 
@@ -76,15 +98,16 @@ app-root {
 .basic-button {
     display: inline-block;
     padding: .5rem 1rem;
-    color: rgb(0, 32, 0);
-    background: linear-gradient(rgb(110, 238, 110), rgb(0, 117, 0));
-    border-radius: .3rem;
+    color: var(--color-8);
+    background: linear-gradient(var(--color-2), var(--color-4));
+    border-radius: 0rem;
     border: none;
+    text-transform: uppercase;
 }
 
 .basic-button:hover {
-    color: rgb(0, 255, 0);
-    background: linear-gradient(rgb(0, 156, 0), rgb(0, 35, 0));
+    color: var(--color-1);
+    background: linear-gradient(var(--color-5), var(--color-7));
     border: none;
 }
 
@@ -103,13 +126,13 @@ app-root {
 /* Bordas das caixas */
 
 .hborder {
-    border-left: 2px solid rgb(16, 255, 16);
-    border-right: 2px solid rgb(16, 255, 16);
+    border-left: var(--box-border);
+    border-right: var(--box-border);
 }
 
 .vborder {
-    border-top: 2px solid rgb(16, 255, 16);
-    border-bottom: 2px solid rgb(16, 255, 16);
+    border-top: var(--box-border);
+    border-bottom: var(--box-border);
 }
 
 .hborder,
@@ -120,16 +143,16 @@ app-root {
 
 .hbd {
     position: absolute;
-    width: .4rem;
-    height: 2px;
-    background: rgb(16, 255, 16);
+    width: var(--box-border-tik);
+    height: var(--box-border-px);
+    background: var(--color-1);
 }
 
 .vbd {
     position: absolute;
-    height: .5rem;
-    width: 2px;
-    background: rgb(16, 255, 16);
+    height: var(--box-border-tik);
+    width: var(--box-border-px);
+    background: var(--color-1);
 }
 
 .tl {

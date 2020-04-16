@@ -2,7 +2,7 @@
     text-align: center;
     padding: .8rem;
     margin-top: .8rem;
-    background: rgba(0, 96, 0, .5);
+    background: var(--list-bg);
 }
 
 .list img {
@@ -38,8 +38,8 @@
 .list .tools a:hover,
 .orderbox a:hover,
 .mark {
-    background: rgb(0, 255, 0);
-    color: rgb(0, 64, 0);
+    background: var(--color-1);
+    color: var(--color-6);
 }
 
 .iflist {
@@ -55,7 +55,7 @@
     justify-content: center;
     align-items: center;
     font-size: small;
-    background: rgba(0, 96, 0, .5);
+    background: var(--list-bg);
 }
 
 .orderbox div {
@@ -65,9 +65,9 @@
 .orderbox select {
     font-family: inherit;
     font-size: inherit;
-    padding: .2rem;
-    color: rgb(0, 255, 0);
-    background: rgb(0, 32, 0);
+    padding: .25rem;
+    color: var(--color-1);
+    background: var(--color-7);
     border: none;
 }
 
