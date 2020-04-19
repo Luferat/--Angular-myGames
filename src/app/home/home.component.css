@@ -1,0 +1,5 @@
+.atention {
+    padding: .01rem .8rem;
+    margin: 1rem .8rem;
+    background: var(--list-bg);
+}
