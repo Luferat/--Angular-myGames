@@ -40,7 +40,7 @@
 
             <!-- Botões para editar e apagar o documento -->
             <a title="Editar {{g.title}}"><i class="fas fa-fw fa-edit"></i></a>
-            <a title="Apagar {{g.title}}"><i class="fas fa-fw fa-trash-alt"></i></a>
+            <a title="Apagar {{g.title}}" (click)="deleteGame(g.id, g.title)"><i class="fas fa-fw fa-trash-alt"></i></a>
         </div>
 
         <!-- Tics das bordas -->
