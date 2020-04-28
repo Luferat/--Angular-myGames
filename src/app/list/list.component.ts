@@ -42,10 +42,10 @@ export class ListComponent implements OnInit {
   constructor(private db: AngularFirestore) {
 
     // Ordena pelo título ao carregar
-    this.orderBy = "title";
+    this.orderBy = 'title';
 
     // Em ordem ascendente ao carregar
-    this.orderDr = "asc";
+    this.orderDr = 'asc';
 
   }
 
