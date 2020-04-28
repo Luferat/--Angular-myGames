@@ -115,6 +115,7 @@ aside {
     margin: 0 0 .8rem 1.6rem;
     padding: .8rem .8rem;
     background: var(--menu-drop-bg);
+    color: var(--color-1);
 }
 
 aside h4 {
@@ -131,6 +132,10 @@ aside ul {
 
 aside li {
     margin-bottom: .8rem;
+}
+
+aside li:last-child {
+    margin-bottom: 0;
 }
 
 aside li strong {
